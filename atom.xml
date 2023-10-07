@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-07T06:47:55.919Z</updated>
+  <updated>2023-10-07T06:52:27.205Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,19 +21,28 @@
     <link href="http://example.com/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/"/>
     <id>http://example.com/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/</id>
     <published>2023-10-07T06:12:17.000Z</published>
-    <updated>2023-10-07T06:47:55.919Z</updated>
+    <updated>2023-10-07T06:52:27.205Z</updated>
     
-    <content type="html"><![CDATA[<p>前幾日拜讀中山大學高顯教授的新書《經典力學》,對於「度規」這一概念有了最初步的感悟.</p><p>關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,有更加簡潔易懂的語言引出了新的概念.</p><h2 id="勾股定理的推廣">勾股定理的推廣</h2><p>我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: <spanclass="math display">\[\begin{equation}\label{eq1}\mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,\end{equation}\]</span> 或者用極坐標: <span class="math display">\[\begin{equation}\label{eq2}\mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.\end{equation}\]</span> 於是在其它空間中, 只要取<strong>無窮小的距離</strong>,使得空間近似平坦綫性, 那麽勾股定理就仍然成立. 例如在球面上: <spanclass="math display">\[\begin{equation}\label{eq3}\mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.\end{equation}\]</span></p><h2 id="將勾股定理寫成二次型形式">將勾股定理寫成二次型形式</h2><p>雖然勾股定理在不同空間和坐標系下都成立,但它們的形式似乎不太統一(如<spanclass="math inline">\(\eqref{eq1}\)</span>, <spanclass="math inline">\(\eqref{eq2}\)</span>和<spanclass="math inline">\(\eqref{eq3}\)</span>). 但它們每項都是平方項.這促使我們想到綫性代數中所學過的二次型.於是我們嘗試將上述三個勾股定理寫成二次型矩陣的形式: <spanclass="math display">\[\begin{align}\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.\end{align}\]</span> 一眼丁真 鑒定爲: <span class="math display">\[\begin{equation}\mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}G\,\mathrm{d}\boldsymbol{\rho}.\end{equation}\]</span> 形式統一, 這下就好辦了. 我們可以寫一個普遍形式: <spanclass="math display">\[\begin{equation}\mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.\end{equation}\]</span> 於是我們就把矩陣<spanclass="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.那麽上面三個例子以及其它空間/坐標的度規就一目瞭然啦:P.</p><p>所以總結來説,<strong>度規就是勾股定理在無窮小距離上的推廣</strong>.</p>]]></content>
+    <content type="html"><![CDATA[<p>前幾日拜讀中山大學高顯教授的新書《經典力學》,對於「度規」這一概念有了最初步的感悟.</p><p>關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,有更加簡潔易懂的語言引出了新的概念.</p><h2 id="勾股定理的推廣">勾股定理的推廣</h2><p>我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: <spanclass="math display">\[\begin{equation}\label{eq1}\mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,\end{equation}\]</span> 或者用極坐標: <span class="math display">\[\begin{equation}\label{eq2}\mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.\end{equation}\]</span> <span id="more"></span></p><p>於是在其它空間中, 只要取<strong>無窮小的距離</strong>,使得空間近似平坦綫性, 那麽勾股定理就仍然成立. 例如在球面上: <spanclass="math display">\[\begin{equation}\label{eq3}\mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.\end{equation}\]</span></p><h2 id="將勾股定理寫成二次型形式">將勾股定理寫成二次型形式</h2><p>雖然勾股定理在不同空間和坐標系下都成立,但它們的形式似乎不太統一(如<spanclass="math inline">\(\eqref{eq1}\)</span>, <spanclass="math inline">\(\eqref{eq2}\)</span>和<spanclass="math inline">\(\eqref{eq3}\)</span>). 但它們每項都是平方項.這促使我們想到綫性代數中所學過的二次型.於是我們嘗試將上述三個勾股定理寫成二次型矩陣的形式: <spanclass="math display">\[\begin{align}\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.\end{align}\]</span> 一眼丁真 鑒定爲: <span class="math display">\[\begin{equation}\mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}G\,\mathrm{d}\boldsymbol{\rho}.\end{equation}\]</span> 形式統一, 這下就好辦了. 我們可以寫一個普遍形式: <spanclass="math display">\[\begin{equation}\mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.\end{equation}\]</span> 於是我們就把矩陣<spanclass="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.那麽上面三個例子以及其它空間/坐標的度規就一目瞭然啦:P.</p><p>所以總結來説,<strong>度規就是勾股定理在無窮小距離上的推廣</strong>.</p>]]></content>
     
     
-      
-      
     <summary type="html">&lt;p&gt;前幾日拜讀中山大學高顯教授的新書《經典力學》,
 對於「度規」這一概念有了最初步的感悟.&lt;/p&gt;
 &lt;p&gt;關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,
 有更加簡潔易懂的語言引出了新的概念.&lt;/p&gt;
-&lt;h2 id=&quot;勾股定理的推廣&quot;&gt;勾股定理的推廣</summary>
-      
+&lt;h2 id=&quot;勾股定理的推廣&quot;&gt;勾股定理的推廣&lt;/h2&gt;
+&lt;p&gt;我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: &lt;span
+class=&quot;math display&quot;&gt;&#92;[
+&#92;begin{equation}
+&#92;label{eq1}
+&#92;mathrm{d}s^2=&#92;mathrm{d}x^2+&#92;mathrm{d}y^2,
+&#92;end{equation}
+&#92;]&lt;/span&gt; 或者用極坐標: &lt;span class=&quot;math display&quot;&gt;&#92;[
+&#92;begin{equation}
+&#92;label{eq2}
+&#92;mathrm{d}s^2=&#92;mathrm{d}&#92;rho^2+&#92;rho^2&#92;mathrm{d}&#92;varphi^2.
+&#92;end{equation}
+&#92;]&lt;/span&gt;</summary>
     
     
     
