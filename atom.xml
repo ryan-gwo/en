@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-07T05:26:07.471Z</updated>
+  <updated>2023-10-07T05:43:08.979Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)</title>
+    <link href="http://example.com/2023/10/07/CNAO/"/>
+    <id>http://example.com/2023/10/07/CNAO/</id>
+    <published>2023-10-07T05:30:24.000Z</published>
+    <updated>2023-10-07T05:43:08.979Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一个只参加过一届CNAO的新手(T_T),在赛前赛后的空闲时间整理过一些往年的试题.现在就放给未来的BR们参考(orz)</p><p><ahref="/download/papers/cnao_final_2002-2020.pdf">全国中学生天文奥林匹克竞赛决赛试题(2002-2020)</a></p><p><ahref="/download/papers/cnao_final_2022.pdf">2021-2022学年全国中学生天文奥林匹克竞赛决赛试题</a></p><p><ahref="/download/papers/cnao_final_2022_video.mp4">2021-2022学年全国中学生天文奥林匹克竞赛决赛03视频</a></p><p>整理不易, 尽量不要大范围传播, 分享时可以宣传本站哦QAQ(</p><p>如果有遗漏或更新, 也欢迎与我联系.</p><p>灌注CNAO喵. 灌注CNAO谢谢喵.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;作为一个只参加过一届CNAO的新手(T_T),
+在赛前赛后的空闲时间整理过一些往年的试题.
+现在就放给未来的BR们参考(orz)&lt;/p&gt;
+&lt;p&gt;&lt;a
+href=&quot;/download/papers/cnao_final_2002-2020.pdf&quot;&gt;全国中学生天文奥林</summary>
+      
+    
+    
+    
+    <category term="试题" scheme="http://example.com/categories/%E8%AF%95%E9%A2%98/"/>
+    
+    <category term="CNAO" scheme="http://example.com/categories/%E8%AF%95%E9%A2%98/CNAO/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Ryan Guo&#39;s Blog</title>
