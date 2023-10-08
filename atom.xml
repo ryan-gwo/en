@@ -6,7 +6,7 @@
   <link href="https://ryan-gwo.github.io/atom.xml" rel="self"/>
   
   <link href="https://ryan-gwo.github.io/"/>
-  <updated>2023-10-07T12:12:01.224Z</updated>
+  <updated>2023-10-08T04:54:52.776Z</updated>
   <id>https://ryan-gwo.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ryan-gwo.github.io/posts/24556.html"/>
     <id>https://ryan-gwo.github.io/posts/24556.html</id>
     <published>2023-10-07T06:12:17.000Z</published>
-    <updated>2023-10-07T12:12:01.224Z</updated>
+    <updated>2023-10-08T04:54:52.776Z</updated>
     
     <content type="html"><![CDATA[<p>前幾日拜讀中山大學高顯教授的新書《經典力學》,對於「度規」這一概念有了最初步的感悟.</p><p>關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,用更加簡潔易懂的語言引出了新的概念.</p><h2 id="勾股定理的推廣">勾股定理的推廣</h2><p>我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: <spanclass="math display">\[\begin{equation}\label{eq1}\mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,\end{equation}\]</span> 或者用極坐標: <span class="math display">\[\begin{equation}\label{eq2}\mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.\end{equation}\]</span> <span id="more"></span></p><p>於是在其它空間中, 只要取<strong>無窮小的距離</strong>,使得空間近似平坦綫性, 那麽勾股定理就仍然成立. 例如在球面上: <spanclass="math display">\[\begin{equation}\label{eq3}\mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.\end{equation}\]</span></p><h2 id="將勾股定理寫成二次型形式">將勾股定理寫成二次型形式</h2><p>雖然勾股定理在不同空間和坐標系下都成立,但它們的形式似乎不太統一(如<spanclass="math inline">\(\eqref{eq1}\)</span>, <spanclass="math inline">\(\eqref{eq2}\)</span>和<spanclass="math inline">\(\eqref{eq3}\)</span>). 但它們每項都是平方項.這促使我們想到綫性代數中所學過的二次型.於是我們嘗試將上述三個勾股定理寫成二次型矩陣的形式: <spanclass="math display">\[\begin{align}\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.\end{align}\]</span> 一眼丁真 鑒定爲: <span class="math display">\[\begin{equation}\mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}G\,\mathrm{d}\boldsymbol{\rho}.\end{equation}\]</span> 形式統一, 這下就好辦了. 我們可以寫一個普遍形式: <spanclass="math display">\[\begin{equation}\mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.\end{equation}\]</span> 於是我們就把矩陣<spanclass="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.那麽上面三個例子以及其它空間/坐標的度規就一目瞭然啦:P.</p><p>所以總結來説,<strong>度規就是勾股定理在無窮小距離上的推廣</strong>.</p>]]></content>
     
@@ -56,7 +56,7 @@ class=&quot;math display&quot;&gt;&#92;[
     <link href="https://ryan-gwo.github.io/posts/56951.html"/>
     <id>https://ryan-gwo.github.io/posts/56951.html</id>
     <published>2023-10-07T05:30:24.000Z</published>
-    <updated>2023-10-07T06:01:01.585Z</updated>
+    <updated>2023-10-08T04:56:06.646Z</updated>
     
     <content type="html"><![CDATA[<p>作为一个只参加过一届CNAO的新手(T_T),在赛前赛后的空闲时间整理过一些往年的试题.现在就放给未来的BR们参考(orz)</p><p><ahref="/download/papers/cnao_final_2002-2020.pdf">全国中学生天文奥林匹克竞赛决赛试题(2002-2020)</a></p><p><ahref="/download/papers/cnao_final_2022.pdf">2021-2022学年全国中学生天文奥林匹克竞赛决赛试题</a></p><p><ahref="/download/papers/cnao_final_2022_video.mp4">2021-2022学年全国中学生天文奥林匹克竞赛决赛03视频</a></p><p>整理不易, 尽量不要大范围传播, 分享时可以宣传本站哦QAQ(</p><p>如果有遗漏或更新, 也欢迎与我联系.</p><p>灌注CNAO喵. 灌注CNAO谢谢喵.</p>]]></content>
     
@@ -72,9 +72,9 @@ href=&quot;/download/papers/cnao_final_2002-2020.pdf&quot;&gt;全国中学生天
     
     
     
-    <category term="试题" scheme="https://ryan-gwo.github.io/categories/%E8%AF%95%E9%A2%98/"/>
+    <category term="試題" scheme="https://ryan-gwo.github.io/categories/%E8%A9%A6%E9%A1%8C/"/>
     
-    <category term="CNAO" scheme="https://ryan-gwo.github.io/categories/%E8%AF%95%E9%A2%98/CNAO/"/>
+    <category term="CNAO" scheme="https://ryan-gwo.github.io/categories/%E8%A9%A6%E9%A1%8C/CNAO/"/>
     
     
   </entry>
@@ -84,7 +84,7 @@ href=&quot;/download/papers/cnao_final_2002-2020.pdf&quot;&gt;全国中学生天
     <link href="https://ryan-gwo.github.io/posts/32545.html"/>
     <id>https://ryan-gwo.github.io/posts/32545.html</id>
     <published>2023-10-06T03:15:41.946Z</published>
-    <updated>2023-10-07T05:26:07.471Z</updated>
+    <updated>2023-10-08T04:54:52.776Z</updated>
     
     <content type="html"><![CDATA[<p><span class="math display">\[\begin{align}\nabla\cdot\boldsymbol{D}&amp;=\rho_0\nonumber \\\nabla\times\boldsymbol{E}&amp;=-\frac{\partial\boldsymbol{B}}{\partialt}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;=0\nonumber \\\nabla\times\boldsymbol{H}&amp;=\boldsymbol{j}_0+\frac{\partial\boldsymbol{D}}{\partial t}\nonumber \end{align}\]</span></p><p>歡迎來到我的主頁!</p><p>這裏是一個苦逼某酒吧舞物理學本科生,以前自學過一點點天文學但是什麽也沒搞明白T_T.</p><p>但是好想搞天體物理啊好想搞天體物理啊</p><p>平時就放一些學習資料和想法8</p><p>Welcome to my homepage!</p><p>This is a dumb undergraduate majoring in physics in an unknownuniversity. I've studied some astronomy myself but haven't figured outanything T_T</p><p>But I really want to study astrophysics aaaaaaaaaaaaaaaa</p><p>I may post some study materials and daily thoughts here.</p>]]></content>
     
