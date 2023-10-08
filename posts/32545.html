@@ -22,19 +22,19 @@
     var CONFIG = {"hostname":"ryan-gwo.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前幾日拜讀中山大學高顯教授的新書《經典力學》, 對於「度規」這一概念有了最初步的感悟. 關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來, 用更加簡潔易懂的語言引出了新的概念. 勾股定理的推廣 我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+  <meta name="description" content="\[\begin{align} \nabla\cdot\boldsymbol{D}&amp;&#x3D;\rho_0\nonumber \\ \nabla\times\boldsymbol{E}&amp;&#x3D;-\frac{\partial\boldsymbol{B}}{\partial t}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;&#x3D;0\nonumber \\">
 <meta property="og:type" content="article">
-<meta property="og:title" content="度規概念的初步感悟">
-<meta property="og:url" content="https://ryan-gwo.github.io/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/index.html">
+<meta property="og:title" content="Ryan Guo&#39;s Blog">
+<meta property="og:url" content="https://ryan-gwo.github.io/posts/32545.html">
 <meta property="og:site_name" content="來點天體物理:P">
-<meta property="og:description" content="前幾日拜讀中山大學高顯教授的新書《經典力學》, 對於「度規」這一概念有了最初步的感悟. 關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來, 用更加簡潔易懂的語言引出了新的概念. 勾股定理的推廣 我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+<meta property="og:description" content="\[\begin{align} \nabla\cdot\boldsymbol{D}&amp;&#x3D;\rho_0\nonumber \\ \nabla\times\boldsymbol{E}&amp;&#x3D;-\frac{\partial\boldsymbol{B}}{\partial t}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;&#x3D;0\nonumber \\">
 <meta property="og:locale" content="zh_HK">
-<meta property="article:published_time" content="2023-10-07T06:12:17.000Z">
-<meta property="article:modified_time" content="2023-10-07T12:12:01.224Z">
+<meta property="article:published_time" content="2023-10-06T03:15:41.946Z">
+<meta property="article:modified_time" content="2023-10-07T05:26:07.471Z">
 <meta property="article:author" content="Ryan Yuze Guo">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://ryan-gwo.github.io/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/">
+<link rel="canonical" href="https://ryan-gwo.github.io/posts/32545.html">
 
 
 <script id="page-configurations">
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>度規概念的初步感悟 | 來點天體物理:P</title>
+  <title>Ryan Guo's Blog | 來點天體物理:P</title>
   
 
 
@@ -201,7 +201,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-HK">
-    <link itemprop="mainEntityOfPage" href="https://ryan-gwo.github.io/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/">
+    <link itemprop="mainEntityOfPage" href="https://ryan-gwo.github.io/posts/32545.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -214,30 +214,31 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          度規概念的初步感悟
+          Ryan Guo's Blog
         </h1>
 
         <div class="post-meta">
 
 	  
+  <i class="fa fa-thumb-tack"></i>
+  <font color=7D26CD>置頂</font>
+  <span class="post-meta-divider">|</span>
+
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2023-10-07 14:12:17 / 修改時間：20:12:01" itemprop="dateCreated datePublished" datetime="2023-10-07T14:12:17+08:00">2023-10-07</time>
+              <time title="創建時間：2023-10-06 11:15:41" itemprop="dateCreated datePublished" datetime="2023-10-06T11:15:41+08:00">2023-10-06</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9B%9C%E8%AB%87/" itemprop="url" rel="index"><span itemprop="name">雜談</span></a>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
                 </span>
-            </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2023-10-07 13:26:07" itemprop="dateModified" datetime="2023-10-07T13:26:07+08:00">2023-10-07</time>
+              </span>
 
           
             <span class="post-meta-item" title="閱讀次數" id="busuanzi_container_page_pv" style="display: none;">
@@ -252,14 +253,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字數：</span>
-              <span>1.9k</span>
+              <span>687</span>
             </span>
             <span class="post-meta-item" title="閱讀時長">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">閱讀時長 &asymp;</span>
-              <span>2 分鍾</span>
+              <span>1 分鍾</span>
             </span>
 
         </div>
@@ -271,59 +272,24 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>前幾日拜讀中山大學高顯教授的新書《經典力學》,
-對於「度規」這一概念有了最初步的感悟.</p>
-<p>關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,
-用更加簡潔易懂的語言引出了新的概念.</p>
-<h2 id="勾股定理的推廣">勾股定理的推廣</h2>
-<p>我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: <span
-class="math display">\[
-\begin{equation}
-\label{eq1}
-\mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,
-\end{equation}
-\]</span> 或者用極坐標: <span class="math display">\[
-\begin{equation}
-\label{eq2}
-\mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.
-\end{equation}
-\]</span> <span id="more"></span></p>
-<p>於是在其它空間中, 只要取<strong>無窮小的距離</strong>,
-使得空間近似平坦綫性, 那麽勾股定理就仍然成立. 例如在球面上: <span
-class="math display">\[
-\begin{equation}
-\label{eq3}
-\mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.
-\end{equation}
+        <p><span class="math display">\[\begin{align}
+\nabla\cdot\boldsymbol{D}&amp;=\rho_0\nonumber \\
+\nabla\times\boldsymbol{E}&amp;=-\frac{\partial\boldsymbol{B}}{\partial
+t}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;=0\nonumber \\
+\nabla\times\boldsymbol{H}&amp;=\boldsymbol{j}_0+\frac{\partial
+\boldsymbol{D}}{\partial t}\nonumber \end{align}
 \]</span></p>
-<h2 id="將勾股定理寫成二次型形式">將勾股定理寫成二次型形式</h2>
-<p>雖然勾股定理在不同空間和坐標系下都成立,
-但它們的形式似乎不太統一(如<span
-class="math inline">\(\eqref{eq1}\)</span>, <span
-class="math inline">\(\eqref{eq2}\)</span>和<span
-class="math inline">\(\eqref{eq3}\)</span>). 但它們每項都是平方項.
-這促使我們想到綫性代數中所學過的二次型.
-於是我們嘗試將上述三個勾股定理寫成二次型矩陣的形式: <span
-class="math display">\[
-\begin{align}
-\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]
-\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]
-\mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.
-\end{align}
-\]</span> 一眼丁真 鑒定爲: <span class="math display">\[
-\begin{equation}
-\mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}G\,\mathrm{d}\boldsymbol{\rho}.
-\end{equation}
-\]</span> 形式統一, 這下就好辦了. 我們可以寫一個普遍形式: <span
-class="math display">\[
-\begin{equation}
-\mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.
-\end{equation}
-\]</span> 於是我們就把矩陣<span
-class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
-那麽上面三個例子以及其它空間/坐標的度規就一目瞭然啦:P.</p>
-<p>所以總結來説,
-<strong>度規就是勾股定理在無窮小距離上的推廣</strong>.</p>
+<p>歡迎來到我的主頁!</p>
+<p>這裏是一個苦逼某酒吧舞物理學本科生,
+以前自學過一點點天文學但是什麽也沒搞明白T_T.</p>
+<p>但是好想搞天體物理啊好想搞天體物理啊</p>
+<p>平時就放一些學習資料和想法8</p>
+<p>Welcome to my homepage!</p>
+<p>This is a dumb undergraduate majoring in physics in an unknown
+university. I've studied some astronomy myself but haven't figured out
+anything T_T</p>
+<p>But I really want to study astrophysics aaaaaaaaaaaaaaaa</p>
+<p>I may post some study materials and daily thoughts here.</p>
 
     </div>
 
@@ -369,7 +335,7 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
   </li>
   <li class="post-copyright-link">
     <strong>文章連結：</strong>
-    <a href="https://ryan-gwo.github.io/2023/10/07/%E5%BA%A6%E8%A7%84%E6%A6%82%E5%BF%B5%E7%9A%84%E5%88%9D%E6%AD%A5%E6%84%9F%E6%82%9F/" title="度規概念的初步感悟">https://ryan-gwo.github.io/2023/10/07/度规概念的初步感悟/</a>
+    <a href="https://ryan-gwo.github.io/posts/32545.html" title="Ryan Guo&#39;s Blog">https://ryan-gwo.github.io/posts/32545.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版權聲明： </strong>本網誌所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 許可協議。轉載請註明出處！
@@ -414,11 +380,11 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
 
         
     <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2023/10/07/CNAO/" rel="prev" title="全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)">
-      <i class="fa fa-chevron-left"></i> 全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)
-    </a></div>
       <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/posts/56951.html" rel="next" title="全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)">
+      全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022) <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -482,7 +448,6 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%BB%A3"><span class="nav-number">1.</span> <span class="nav-text">勾股定理的推廣</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%87%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E5%AF%AB%E6%88%90%E4%BA%8C%E6%AC%A1%E5%9E%8B%E5%BD%A2%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">將勾股定理寫成二次型形式</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
