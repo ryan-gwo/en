@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ryan-gwo.github.io/posts/24556.html</loc>
+    
+    <lastmod>2023-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ryan-gwo.github.io/posts/56951.html</loc>
     
     <lastmod>2023-10-08</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://ryan-gwo.github.io/posts/32545.html</loc>
-    
-    <lastmod>2023-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryan-gwo.github.io/posts/24556.html</loc>
     
     <lastmod>2023-10-08</lastmod>
     
@@ -92,14 +92,14 @@
   </url>
   
   <url>
-    <loc>https://ryan-gwo.github.io/categories/%E8%A9%A6%E9%A1%8C/CNAO/</loc>
+    <loc>https://ryan-gwo.github.io/categories/%E9%9B%9C%E8%AB%87/</loc>
     <lastmod>2023-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ryan-gwo.github.io/categories/%E9%9B%9C%E8%AB%87/</loc>
+    <loc>https://ryan-gwo.github.io/categories/%E8%A9%A6%E9%A1%8C/CNAO/</loc>
     <lastmod>2023-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
