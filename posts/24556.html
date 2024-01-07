@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="msvalidate.01" content="F54B46000D36897D11A4F61D56CAD5AD" />
@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Zhi Mang Xing:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
   <script src="/lib/pace/pace.min.js"></script>
@@ -24,17 +24,17 @@
     var CONFIG = {"hostname":"ryan-gwo.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":false,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前幾日拜讀中山大學高顯教授的新書《經典力學》, 對於「度規」這一概念有了最初步的感悟. 關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來, 用更加簡潔易懂的語言引出了新的概念. 勾股定理的推廣 我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+  <meta name="description" content="前几日拜读中山大学高显教授的新书《经典力学》, 对于「度规」这一概念有了最初步的感悟. 关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来, 用更加简洁易懂的语言引出了新的概念. 勾股定理的推广 我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
 <meta property="og:type" content="article">
-<meta property="og:title" content="度規概念的初步感悟">
+<meta property="og:title" content="度规概念的初步感悟">
 <meta property="og:url" content="https://ryan-gwo.github.io/posts/24556.html">
-<meta property="og:site_name" content="來點天體物理:P">
-<meta property="og:description" content="前幾日拜讀中山大學高顯教授的新書《經典力學》, 對於「度規」這一概念有了最初步的感悟. 關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來, 用更加簡潔易懂的語言引出了新的概念. 勾股定理的推廣 我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
-<meta property="og:locale" content="zh_HK">
+<meta property="og:site_name" content="天文, 启动!">
+<meta property="og:description" content="前几日拜读中山大学高显教授的新书《经典力学》, 对于「度规」这一概念有了最初步的感悟. 关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来, 用更加简洁易懂的语言引出了新的概念. 勾股定理的推广 我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-07T06:12:17.000Z">
-<meta property="article:modified_time" content="2023-10-10T03:40:05.657Z">
-<meta property="article:author" content="Ryan Yuze Guo">
-<meta property="article:tag" content="天體物理">
+<meta property="article:modified_time" content="2024-01-07T12:26:45.518Z">
+<meta property="article:author" content="Ryan Guo">
+<meta property="article:tag" content="天体物理">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://ryan-gwo.github.io/posts/24556.html">
@@ -46,12 +46,12 @@
     sidebar: "",
     isHome : false,
     isPost : true,
-    lang   : 'zh-HK'
+    lang   : 'zh-CN'
   };
 </script>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/love.js"></script><link rel="stylesheet" type="text/css" href="/css/injector/main.css" /><link rel="preload" as="style" href="/css/injector/light.css" /><link rel="preload" as="style" href="/css/injector/dark.css" />
-  <title>度規概念的初步感悟 | 來點天體物理:P</title>
+  <title>度规概念的初步感悟 | 天文, 启动!</title>
   
 
 
@@ -82,7 +82,7 @@
   </style>
 </noscript>
 
-<link rel="alternate" href="/atom.xml" title="來點天體物理:P" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="天文, 启动!" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -92,7 +92,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切換導航欄">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -103,7 +103,7 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">來點天體物理:P</h1>
+      <h1 class="site-title">天文, 启动!</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -122,36 +122,36 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">0</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">0</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">3</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
         <li class="menu-item menu-item-resources">
 
-    <a href="/resources/" rel="section"><i class="fa fa-download fa-fw"></i>資源</a>
+    <a href="/resources/" rel="section"><i class="fa fa-download fa-fw"></i>资源</a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>檢索
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -201,21 +201,21 @@
     
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-HK">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://ryan-gwo.github.io/posts/24556.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Ryan Yuze Guo">
-      <meta itemprop="description" content="好想搞天體物理啊好想搞天體物理啊">
+      <meta itemprop="name" content="Ryan Guo">
+      <meta itemprop="description" content="好想搞天体物理啊好想搞天体物理啊">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="來點天體物理:P">
+      <meta itemprop="name" content="天文, 启动!">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          度規概念的初步感悟
+          度规概念的初步感悟
         </h1>
 
         <div class="post-meta">
@@ -225,48 +225,48 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">發表於</span>
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="創建時間：2023-10-07 14:12:17" itemprop="dateCreated datePublished" datetime="2023-10-07T14:12:17+08:00">2023-10-07</time>
+              <time title="创建时间：2023-10-07 14:12:17" itemprop="dateCreated datePublished" datetime="2023-10-07T14:12:17+08:00">2023-10-07</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2023-10-10 11:40:05" itemprop="dateModified" datetime="2023-10-10T11:40:05+08:00">2023-10-10</time>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-01-07 20:26:45" itemprop="dateModified" datetime="2024-01-07T20:26:45+08:00">2024-01-07</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
-              <span class="post-meta-item-text">分類於</span>
+              <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9B%9C%E8%AB%87/" itemprop="url" rel="index"><span itemprop="name">雜談</span></a>
+                  <a href="/categories/%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">杂谈</span></a>
                 </span>
             </span>
 
           
-            <span class="post-meta-item" title="閱讀次數" id="busuanzi_container_page_pv" style="display: none;">
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
-              <span class="post-meta-item-text">閱讀次數：</span>
+              <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
             </span><br>
-            <span class="post-meta-item" title="本文字數">
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
-                <span class="post-meta-item-text">本文字數：</span>
+                <span class="post-meta-item-text">本文字数：</span>
               <span>1.9k</span>
             </span>
-            <span class="post-meta-item" title="閱讀時長">
+            <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
-                <span class="post-meta-item-text">閱讀時長 &asymp;</span>
-              <span>2 分鍾</span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -278,59 +278,59 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>前幾日拜讀中山大學高顯教授的新書《經典力學》,
-對於「度規」這一概念有了最初步的感悟.</p>
-<p>關鍵是在於高教授將我們既有的一些概念與高等一些的數學工具結合了起來,
-用更加簡潔易懂的語言引出了新的概念.</p>
-<h2 id="勾股定理的推廣">勾股定理的推廣</h2>
-<p>我們知道在平直的Euclid空間中, 兩點間的距離可以用勾股定理表出: <span
+        <p>前几日拜读中山大学高显教授的新书《经典力学》,
+对于「度规」这一概念有了最初步的感悟.</p>
+<p>关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来,
+用更加简洁易懂的语言引出了新的概念.</p>
+<h2 id="勾股定理的推广">勾股定理的推广</h2>
+<p>我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: <span
 class="math display">\[
 \begin{equation}
 \label{eq1}
 \mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,
 \end{equation}
-\]</span> 或者用極坐標: <span class="math display">\[
+\]</span> 或者用极坐标: <span class="math display">\[
 \begin{equation}
 \label{eq2}
 \mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.
 \end{equation}
 \]</span> <span id="more"></span></p>
-<p>於是在其它空間中, 只要取<strong>無窮小的距離</strong>,
-使得空間近似平坦綫性, 那麽勾股定理就仍然成立. 例如在球面上: <span
+<p>于是在其它空间中, 只要取<strong>无穷小的距离</strong>,
+使得空间近似平坦线性, 那么勾股定理就仍然成立. 例如在球面上: <span
 class="math display">\[
 \begin{equation}
 \label{eq3}
 \mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.
 \end{equation}
 \]</span></p>
-<h2 id="將勾股定理寫成二次型形式">將勾股定理寫成二次型形式</h2>
-<p>雖然勾股定理在不同空間和坐標系下都成立,
-但它們的形式似乎不太統一(如<span
+<h2 id="将勾股定理写成二次型形式">将勾股定理写成二次型形式</h2>
+<p>虽然勾股定理在不同空间和坐标系下都成立,
+但它们的形式似乎不太统一(如<span
 class="math inline">\(\eqref{eq1}\)</span>, <span
 class="math inline">\(\eqref{eq2}\)</span>和<span
-class="math inline">\(\eqref{eq3}\)</span>). 但它們每項都是平方項.
-這促使我們想到綫性代數中所學過的二次型.
-於是我們嘗試將上述三個勾股定理寫成二次型矩陣的形式: <span
+class="math inline">\(\eqref{eq3}\)</span>). 但它们每项都是平方项.
+这促使我们想到线性代数中所学过的二次型.
+于是我们尝试将上述三个勾股定理写成二次型矩阵的形式: <span
 class="math display">\[
 \begin{align}
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.
 \end{align}
-\]</span> 一眼丁真 鑒定爲: <span class="math display">\[
+\]</span> 一眼丁真 鉴定为: <span class="math display">\[
 \begin{equation}
 \mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}\,G\,\mathrm{d}\boldsymbol{\rho}.
 \end{equation}
-\]</span> 形式統一, 這下就好辦了. 我們可以寫一個普遍形式: <span
+\]</span> 形式统一, 这下就好办了. 我们可以写一个普遍形式: <span
 class="math display">\[
 \begin{equation}
 \mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.
 \end{equation}
-\]</span> 於是我們就把矩陣<span
-class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
-那麽上面三個例子以及其它空間/坐標的度規就一目瞭然啦:P.</p>
-<p>所以總結來説,
-<strong>度規就是勾股定理在無窮小距離上的推廣</strong>.</p>
+\]</span> 于是我们就把矩阵<span
+class="math inline">\(g_{ab}\)</span>定义为<strong>度规(metric)</strong>.
+那么上面三个例子以及其它空间/坐目标度规就一目了然啦:P.</p>
+<p>所以总结来说,
+<strong>度规就是勾股定理在无穷小距离上的推广</strong>.</p>
 
     </div>
 
@@ -351,25 +351,25 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
   <div class="popular-posts-header">看點別的..?</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\20082.html" rel="bookmark">逆天老師太多啦🥵</a></div>
+      <div class="popular-posts-title"><a href="\posts\20082.html" rel="bookmark">逆天老师太多啦🥵</a></div>
     </li>
   </ul>
 
         <div class="reward-container">
   <div>Thanks for your support!</div>
   <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
-    打賞
+    打赏
   </button>
   <div id="qr" style="display: none;">
       
       <div style="display: inline-block;">
-        <img src="/images/wechatpay.png" alt="Ryan Yuze Guo 微信支付">
+        <img src="/images/wechatpay.png" alt="Ryan Guo 微信支付">
         <p>微信支付</p>
       </div>
       
       <div style="display: inline-block;">
-        <img src="/images/alipay.png" alt="Ryan Yuze Guo 支付寶">
-        <p>支付寶</p>
+        <img src="/images/alipay.png" alt="Ryan Guo 支付宝">
+        <p>支付宝</p>
       </div>
 
   </div>
@@ -380,14 +380,14 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
 <div>
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>博主： </strong>Ryan Yuze Guo
+    <strong>本文作者： </strong>Ryan Guo
   </li>
   <li class="post-copyright-link">
-    <strong>文章連結：</strong>
-    <a href="https://ryan-gwo.github.io/posts/24556.html" title="度規概念的初步感悟">https://ryan-gwo.github.io/posts/24556.html</a>
+    <strong>本文链接：</strong>
+    <a href="https://ryan-gwo.github.io/posts/24556.html" title="度规概念的初步感悟">https://ryan-gwo.github.io/posts/24556.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版權聲明： </strong>本網誌所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener external nofollow noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 許可協議。轉載請註明出處！
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener external nofollow noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -395,7 +395,7 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
         
 
   <div class="followme">
-    <p>歡迎關注我的其它發布渠道</p>
+    <p>欢迎关注我的其它发布渠道</p>
 
     <div class="social-list">
 
@@ -434,8 +434,8 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
       <i class="fa fa-chevron-left"></i> 全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)
     </a></div>
       <div class="post-nav-item">
-    <a href="/posts/20082.html" rel="next" title="逆天老師太多啦🥵">
-      逆天老師太多啦🥵 <i class="fa fa-chevron-right"></i>
+    <a href="/posts/20082.html" rel="next" title="逆天老师太多啦🥵">
+      逆天老师太多啦🥵 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -491,25 +491,25 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          文章目錄
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          本站概覽
+          站点概览
         </li>
       </ul>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%BB%A3"><span class="nav-number">1.</span> <span class="nav-text">勾股定理的推廣</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%87%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E5%AF%AB%E6%88%90%E4%BA%8C%E6%AC%A1%E5%9E%8B%E5%BD%A2%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">將勾股定理寫成二次型形式</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF"><span class="nav-number">1.</span> <span class="nav-text">勾股定理的推广</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E5%86%99%E6%88%90%E4%BA%8C%E6%AC%A1%E5%9E%8B%E5%BD%A2%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">将勾股定理写成二次型形式</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Ryan Yuze Guo"
+    <img class="site-author-image" itemprop="image" alt="Ryan Guo"
       src="/images/avatar.png">
-  <p class="site-author-name" itemprop="name">Ryan Yuze Guo</p>
-  <div class="site-description" itemprop="description">好想搞天體物理啊好想搞天體物理啊</div>
+  <p class="site-author-name" itemprop="name">Ryan Guo</p>
+  <div class="site-description" itemprop="description">好想搞天体物理啊好想搞天体物理啊</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -517,14 +517,14 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
           <a href="/archives/">
         
           <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">文章</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
         <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">分類</span></a>
+        <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
 </div>
@@ -562,19 +562,19 @@ class="math inline">\(g_{ab}\)</span>定義爲<strong>度規(metric)</strong>.
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ryan Yuze Guo</span>
+  <span class="author" itemprop="copyrightHolder">Ryan Guo</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站點總字數">3k</span>
+    <span title="站点总字数">3k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站點閱讀時長">3 分鍾</span>
+    <span title="站点阅读时长">3 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">NexT.Gemini</a> 強力驅動
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener external nofollow noreferrer" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
@@ -619,7 +619,7 @@ $(document).ready(function() {
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
       </span>
-      <span class="site-uv" title="訪客總數">
+      <span class="site-uv" title="总访客量">
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
@@ -628,7 +628,7 @@ $(document).ready(function() {
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
       </span>
-      <span class="site-pv" title="總瀏覽次數">
+      <span class="site-pv" title="总访问量">
         <span id="busuanzi_value_site_pv"></span>
       </span>
     </span>
