@@ -3,11 +3,11 @@
   <title>给宝宝看的天体物理</title>
   
   
-  <link href="https://ryan-gwo.github.io/atom.xml" rel="self"/>
+  <link href="https://ryan-gwo.github.io/en/atom.xml" rel="self"/>
   
-  <link href="https://ryan-gwo.github.io/"/>
-  <updated>2024-05-17T14:54:58.588Z</updated>
-  <id>https://ryan-gwo.github.io/</id>
+  <link href="https://ryan-gwo.github.io/en/"/>
+  <updated>2024-05-17T14:54:47.192Z</updated>
+  <id>https://ryan-gwo.github.io/en/</id>
   
   <author>
     <name>Ryan Guo</name>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Ryan Guo&#39;s Blog</title>
+    <link href="https://ryan-gwo.github.io/en/posts/32545.html"/>
+    <id>https://ryan-gwo.github.io/en/posts/32545.html</id>
+    <published>2024-05-18T05:06:18.955Z</published>
+    <updated>2024-05-17T14:54:47.192Z</updated>
+    
+    <content type="html"><![CDATA[<p><span class="math display">\[\begin{align}\nabla\cdot\boldsymbol{D}&amp;=\rho_0\nonumber \\\nabla\times\boldsymbol{E}&amp;=-\frac{\partial\boldsymbol{B}}{\partialt}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;=0\nonumber \\\nabla\times\boldsymbol{H}&amp;=\boldsymbol{j}_0+\frac{\partial\boldsymbol{D}}{\partial t}\nonumber \end{align}\]</span></p><p>欢迎来到我的主页!</p><p>这里是一个苦逼某酒吧舞物理学本科生,以前自学过一点点天文学但是什么也没搞明白T_T.</p><p>但是好想搞天体物理啊好想搞天体物理啊</p><p>平时就放一些学习数据和想法8</p><p>Welcome to my homepage!</p><p>This is a dumb undergraduate majoring in physics in an unknownuniversity. I've studied some astronomy myself but haven't figured outanything T_T</p><p>But I really want to study astrophysics aaaaaaaaaaaaaaaa</p><p>I may post some study materials and daily thoughts here.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;&#92;[&#92;begin{align}
+&#92;nabla&#92;cdot&#92;boldsymbol{D}&amp;amp;=&#92;rho_0&#92;nonumber &#92;&#92;
+&#92;nabla&#92;times&#92;boldsymbol{E}&amp;amp;=-&#92;frac{&#92;pa</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>逆天老师太多啦🥵</title>
-    <link href="https://ryan-gwo.github.io/posts/20082.html"/>
-    <id>https://ryan-gwo.github.io/posts/20082.html</id>
+    <link href="https://ryan-gwo.github.io/en/posts/20082.html"/>
+    <id>https://ryan-gwo.github.io/en/posts/20082.html</id>
     <published>2023-10-12T08:26:27.000Z</published>
     <updated>2024-05-17T14:54:58.588Z</updated>
     
@@ -42,15 +64,15 @@
     
     
     
-    <category term="杂谈" scheme="https://ryan-gwo.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://ryan-gwo.github.io/en/categories/%E6%9D%82%E8%B0%88/"/>
     
     
   </entry>
   
   <entry>
     <title>度规概念的初步感悟</title>
-    <link href="https://ryan-gwo.github.io/posts/24556.html"/>
-    <id>https://ryan-gwo.github.io/posts/24556.html</id>
+    <link href="https://ryan-gwo.github.io/en/posts/24556.html"/>
+    <id>https://ryan-gwo.github.io/en/posts/24556.html</id>
     <published>2023-10-07T06:12:17.000Z</published>
     <updated>2024-05-17T14:54:52.904Z</updated>
     
@@ -77,15 +99,15 @@ class=&quot;math display&quot;&gt;&#92;[
     
     
     
-    <category term="杂谈" scheme="https://ryan-gwo.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://ryan-gwo.github.io/en/categories/%E6%9D%82%E8%B0%88/"/>
     
     
   </entry>
   
   <entry>
     <title>全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)</title>
-    <link href="https://ryan-gwo.github.io/posts/56951.html"/>
-    <id>https://ryan-gwo.github.io/posts/56951.html</id>
+    <link href="https://ryan-gwo.github.io/en/posts/56951.html"/>
+    <id>https://ryan-gwo.github.io/en/posts/56951.html</id>
     <published>2023-10-07T05:30:24.000Z</published>
     <updated>2024-05-17T14:54:40.196Z</updated>
     
@@ -103,31 +125,9 @@ href=&quot;/download/papers/cnao_final_2002-2020.pdf&quot;&gt;全国中学生天
     
     
     
-    <category term="试题" scheme="https://ryan-gwo.github.io/categories/%E8%AF%95%E9%A2%98/"/>
+    <category term="试题" scheme="https://ryan-gwo.github.io/en/categories/%E8%AF%95%E9%A2%98/"/>
     
-    <category term="CNAO" scheme="https://ryan-gwo.github.io/categories/%E8%AF%95%E9%A2%98/CNAO/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Ryan Guo&#39;s Blog</title>
-    <link href="https://ryan-gwo.github.io/posts/32545.html"/>
-    <id>https://ryan-gwo.github.io/posts/32545.html</id>
-    <published>2023-10-06T03:15:41.946Z</published>
-    <updated>2024-05-17T14:54:47.192Z</updated>
-    
-    <content type="html"><![CDATA[<p><span class="math display">\[\begin{align}\nabla\cdot\boldsymbol{D}&amp;=\rho_0\nonumber \\\nabla\times\boldsymbol{E}&amp;=-\frac{\partial\boldsymbol{B}}{\partialt}\nonumber \\ \nabla\cdot\boldsymbol{B}&amp;=0\nonumber \\\nabla\times\boldsymbol{H}&amp;=\boldsymbol{j}_0+\frac{\partial\boldsymbol{D}}{\partial t}\nonumber \end{align}\]</span></p><p>欢迎来到我的主页!</p><p>这里是一个苦逼某酒吧舞物理学本科生,以前自学过一点点天文学但是什么也没搞明白T_T.</p><p>但是好想搞天体物理啊好想搞天体物理啊</p><p>平时就放一些学习数据和想法8</p><p>Welcome to my homepage!</p><p>This is a dumb undergraduate majoring in physics in an unknownuniversity. I've studied some astronomy myself but haven't figured outanything T_T</p><p>But I really want to study astrophysics aaaaaaaaaaaaaaaa</p><p>I may post some study materials and daily thoughts here.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;&#92;[&#92;begin{align}
-&#92;nabla&#92;cdot&#92;boldsymbol{D}&amp;amp;=&#92;rho_0&#92;nonumber &#92;&#92;
-&#92;nabla&#92;times&#92;boldsymbol{E}&amp;amp;=-&#92;frac{&#92;pa</summary>
-      
-    
-    
+    <category term="CNAO" scheme="https://ryan-gwo.github.io/en/categories/%E8%AF%95%E9%A2%98/CNAO/"/>
     
     
   </entry>
