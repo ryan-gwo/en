@@ -24,15 +24,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"ryan-gwo.github.io","root":"/en/","images":"/en/images","scheme":"Gemini","darkmode":true,"version":"8.20.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":200,"display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/en/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/en/js/config.js"></script>
 
-    <meta name="description" content="前几日拜读中山大学高显教授的新书《经典力学》, 对于「度规」这一概念有了最初步的感悟. 关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来, 用更加简洁易懂的语言引出了新的概念. 勾股定理的推广 我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+    <meta name="description" content="A few days ago, I read the new book &quot;Classical Mechanics&quot; by Prof. Xian Gao from Sun Yat-sen University, and I have a preliminary understanding of the concept of &quot;metric&quot;. The key lies in the fact">
 <meta property="og:type" content="article">
-<meta property="og:title" content="度规概念的初步感悟">
+<meta property="og:title" content="Initial Understanding of the Concept of Metrics">
 <meta property="og:url" content="https://ryan-gwo.github.io/en/posts/24556.html">
 <meta property="og:site_name" content="Astrophysics for Babies">
-<meta property="og:description" content="前几日拜读中山大学高显教授的新书《经典力学》, 对于「度规」这一概念有了最初步的感悟. 关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来, 用更加简洁易懂的语言引出了新的概念. 勾股定理的推广 我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: \[ \begin{equation} \label{eq1} \mathrm{d}s^2&#x3D;\mat">
+<meta property="og:description" content="A few days ago, I read the new book &quot;Classical Mechanics&quot; by Prof. Xian Gao from Sun Yat-sen University, and I have a preliminary understanding of the concept of &quot;metric&quot;. The key lies in the fact">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-10-07T06:12:17.000Z">
-<meta property="article:modified_time" content="2024-05-17T14:54:52.904Z">
+<meta property="article:modified_time" content="2024-05-18T12:26:08.408Z">
 <meta property="article:author" content="Ryan Guo">
 <meta property="article:tag" content="astrophysics">
 <meta name="twitter:card" content="summary">
@@ -42,10 +42,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://ryan-gwo.github.io/en/posts/24556.html","path":"posts/24556.html","title":"度规概念的初步感悟"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://ryan-gwo.github.io/en/posts/24556.html","path":"posts/24556.html","title":"Initial Understanding of the Concept of Metrics"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>度规概念的初步感悟 | Astrophysics for Babies</title>
+<title>Initial Understanding of the Concept of Metrics | Astrophysics for Babies</title>
   
 
 
@@ -146,7 +146,9 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF"><span class="nav-number">1.</span> <span class="nav-text">勾股定理的推广</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86%E5%86%99%E6%88%90%E4%BA%8C%E6%AC%A1%E5%9E%8B%E5%BD%A2%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">将勾股定理写成二次型形式</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#generalization-of-the-pythagorean-theorem"><span class="nav-number">1.</span> <span class="nav-text">Generalization of the
+Pythagorean Theorem</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#write-the-pythagorean-theorem-in-quadratic-form"><span class="nav-number">2.</span> <span class="nav-text">Write the
+Pythagorean theorem in quadratic form</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -215,12 +217,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="度规概念的初步感悟 | Astrophysics for Babies">
+      <meta itemprop="name" content="Initial Understanding of the Concept of Metrics | Astrophysics for Babies">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          度规概念的初步感悟
+          Initial Understanding of the Concept of Metrics
         </h1>
 
         <div class="post-meta-container">
@@ -238,7 +240,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2024-05-17 22:54:52" itemprop="dateModified" datetime="2024-05-17T22:54:52+08:00">2024-05-17</time>
+      <time title="Modified: 2024-05-18 20:26:08" itemprop="dateModified" datetime="2024-05-18T20:26:08+08:00">2024-05-18</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -246,7 +248,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/en/categories/%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">杂谈</span></a>
+          <a href="/en/categories/Various/" itemprop="url" rel="index"><span itemprop="name">Various</span></a>
         </span>
     </span>
 
@@ -264,7 +266,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.8k</span>
+      <span>2.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -281,59 +283,69 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>前几日拜读中山大学高显教授的新书《经典力学》,
-对于「度规」这一概念有了最初步的感悟.</p>
-<p>关键是在于高教授将我们既有的一些概念与高等一些的数学工具结合了起来,
-用更加简洁易懂的语言引出了新的概念.</p>
-<h2 id="勾股定理的推广">勾股定理的推广</h2>
-<p>我们知道在平直的Euclid空间中, 两点间的距离可以用勾股定理表出: <span
+    <div class="post-body" itemprop="articleBody"><p>A few days ago, I read the new book "Classical Mechanics" by Prof.
+Xian Gao from Sun Yat-sen University, and I have a preliminary
+understanding of the concept of "metric".</p>
+<p>The key lies in the fact that Prof. Gao combines some of our existing
+concepts with some advanced mathematical tools, and introduces new
+concepts in a more concise and easy-to-understand language.</p>
+<h2 id="generalization-of-the-pythagorean-theorem">Generalization of the
+Pythagorean Theorem</h2>
+<p>We know that in flat Euclidian space, the distance between two points
+can be expressed by the Pythagorean theorem: <span
 class="math display">\[
 \begin{equation}
 \label{eq1}
 \mathrm{d}s^2=\mathrm{d}x^2+\mathrm{d}y^2,
 \end{equation}
-\]</span> 或者用极坐标: <span class="math display">\[
+\]</span> or in polar coordinates: <span class="math display">\[
 \begin{equation}
 \label{eq2}
 \mathrm{d}s^2=\mathrm{d}\rho^2+\rho^2\mathrm{d}\varphi^2.
 \end{equation}
 \]</span> <span id="more"></span></p>
-<p>于是在其它空间中, 只要取<strong>无穷小的距离</strong>,
-使得空间近似平坦线性, 那么勾股定理就仍然成立. 例如在球面上: <span
+<p>So in other spaces, the Pythagorean theorem still holds as long as
+one takes <strong>infinitely small distances</strong> so that the space
+is approximately flat and linear. For example, on a sphere: <span
 class="math display">\[
 \begin{equation}
 \label{eq3}
 \mathrm{d}s^2=R^2\mathrm{d}\theta^2+R^2\sin^2\theta\,\mathrm{d}\varphi^2.
 \end{equation}
 \]</span></p>
-<h2 id="将勾股定理写成二次型形式">将勾股定理写成二次型形式</h2>
-<p>虽然勾股定理在不同空间和坐标系下都成立,
-但它们的形式似乎不太统一(如<span
+<h2 id="write-the-pythagorean-theorem-in-quadratic-form">Write the
+Pythagorean theorem in quadratic form</h2>
+<p>Although the Pythagorean theorem holds in different spaces and
+coordinate systems, their forms seem to be less uniform (e.g. <span
 class="math inline">\(\eqref{eq1}\)</span>, <span
-class="math inline">\(\eqref{eq2}\)</span>和<span
-class="math inline">\(\eqref{eq3}\)</span>). 但它们每项都是平方项.
-这促使我们想到线性代数中所学过的二次型.
-于是我们尝试将上述三个勾股定理写成二次型矩阵的形式: <span
+class="math inline">\(\eqref{eq2}\)</span> and <span
+class="math inline">\(\eqref{eq3}\)</span>). But each of them is a
+square term. This prompted us to think of the quadratic forms we learned
+in linear algebra. So we try to write the above three Pythagorean
+theorems in the form of quadratic matrices: <span
+class="math inline">\(\eqref{eq3}\)</span> and <span
+class="math inline">\(\eqref{eq3}\)</span>. <span
 class="math display">\[
 \begin{align}
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}x&amp;\mathrm{d}y\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}\begin{pmatrix}\mathrm{d}x\\\mathrm{d}y\end{pmatrix},\\[12pt]
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\rho&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}1&amp;0\\0&amp;\rho^2\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho\\\mathrm{d}\varphi\end{pmatrix},\\[12pt]
 \mathrm{d}s^2&amp;=\begin{pmatrix}\mathrm{d}\theta&amp;\mathrm{d}\varphi\end{pmatrix}\begin{pmatrix}R^2&amp;0\\0&amp;R^2\sin^2\theta\end{pmatrix}\begin{pmatrix}\mathrm{d}\theta\\\mathrm{d}\varphi\end{pmatrix}.
 \end{align}
-\]</span> 一眼丁真 鉴定为: <span class="math display">\[
+\]</span> It turns out that <span class="math display">\[
 \begin{equation}
 \mathrm{d}s^2\equiv\mathrm{d}\boldsymbol{\rho}^\mathrm{T}\,G\,\mathrm{d}\boldsymbol{\rho}.
 \end{equation}
-\]</span> 形式统一, 这下就好办了. 我们可以写一个普遍形式: <span
-class="math display">\[
+\]</span> Uniform in form, now that's a good thing. We can write a
+generalized form <span class="math display">\[
 \begin{equation}
 \mathrm{d}s^2=\begin{pmatrix}\mathrm{d}\rho^1&amp;\cdots&amp;\mathrm{d}\rho^s\end{pmatrix}\begin{pmatrix}g_{11}&amp;\cdots&amp;g_{1s}\\\vdots&amp;\ddots&amp;\vdots\\g_{s1}&amp;\cdots&amp;g_{ss}\end{pmatrix}\begin{pmatrix}\mathrm{d}\rho^1\\\vdots\\\mathrm{d}q^s\end{pmatrix}.
 \end{equation}
-\]</span> 于是我们就把矩阵<span
-class="math inline">\(g_{ab}\)</span>定义为<strong>度规(metric)</strong>.
-那么上面三个例子以及其它空间/坐目标度规就一目了然啦:P.</p>
-<p>所以总结来说,
-<strong>度规就是勾股定理在无穷小距离上的推广</strong>.</p>
+\]</span> So we define the matrix <span
+class="math inline">\(g_{ab}\)</span> as a <strong>metric</strong>. So
+the above three examples and other spatial/targeting metrics are clear
+:P.</p>
+<p>So to summarize, the <strong>metric is a generalization of the
+Pythagorean theorem to infinitesimal distances</strong>.</p>
 
     </div>
 
@@ -369,7 +381,7 @@ class="math inline">\(g_{ab}\)</span>定义为<strong>度规(metric)</strong>.
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://ryan-gwo.github.io/en/posts/24556.html" title="度规概念的初步感悟">https://ryan-gwo.github.io/en/posts/24556.html</a>
+      <a href="https://ryan-gwo.github.io/en/posts/24556.html" title="Initial Understanding of the Concept of Metrics">https://ryan-gwo.github.io/en/posts/24556.html</a>
   </li>
   <li class="post-copyright-license">
       <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLmVu"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> unless stating additionally.
@@ -411,13 +423,13 @@ class="math inline">\(g_{ab}\)</span>定义为<strong>度规(metric)</strong>.
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/en/posts/56951.html" rel="prev" title="全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)">
-                  <i class="fa fa-angle-left"></i> 全国中学生天文奥林匹克竞赛(CNAO)决赛往年试题(2002-2022)
+                <a href="/en/posts/56951.html" rel="prev" title="Previous Problems of the Final Round of the Chinese National Astronomy Olympiad (CNAO) (2002-2022)">
+                  <i class="fa fa-angle-left"></i> Previous Problems of the Final Round of the Chinese National Astronomy Olympiad (CNAO) (2002-2022)
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/en/posts/20082.html" rel="next" title="逆天老师太多啦🥵">
-                  逆天老师太多啦🥵 <i class="fa fa-angle-right"></i>
+                <a href="/en/posts/20082.html" rel="next" title="Too Many Crazy Teachers🥵">
+                  Too Many Crazy Teachers🥵 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -450,13 +462,13 @@ class="math inline">\(g_{ab}\)</span>定义为<strong>度规(metric)</strong>.
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">3k</span>
+    <span title="Word count total">5k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3 mins.</span>
+    <span title="Reading time total">5 mins.</span>
   </span>
 </div>
 <div class="busuanzi-count">
